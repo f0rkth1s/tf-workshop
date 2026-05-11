@@ -12,13 +12,13 @@ variable "repository_description" {
 variable "repository_private" {
   description = "Visibility of the repository."
   type        = bool
-  default     = true
+  #default     = false
 }
 
 variable "repository_visibility" {
   description = "Topics to be added to the repository."
   type        = string
-  default     = "public"
+  #default     = "public"
 }
 
 variable "github_token" {
